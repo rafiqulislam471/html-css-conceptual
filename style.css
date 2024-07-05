@@ -14,6 +14,10 @@ h1{
 }
 #heading-parent{
     background-color: rgb(240, 82, 10);
+    background-image: linear-gradient(45deg, #730654, transparent),
+     url("hero.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 600px;
     padding: 100px 0;
     width: 600px;
@@ -23,5 +27,17 @@ h1{
     margin-left: auto; */
     margin: 30px auto;
 
-
 }
+.btn-parent{
+    text-align: center;
+}
+.btn{
+    background-color: tomato;
+    padding: 8px 15px;
+    color: #fff;
+    border-color: yellow;
+    border-width: 4px;
+    border-radius: 6px;
+    text-align: center;
+    }
+    
